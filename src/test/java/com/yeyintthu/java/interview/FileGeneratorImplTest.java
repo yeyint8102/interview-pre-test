@@ -21,5 +21,4 @@ public class FileGeneratorImplTest {
 		assertTrue(fileGenerator.generate(333).isPresent());
 		assertFalse(fileGenerator.generate(4).isEmpty());
 	}
-
 }
